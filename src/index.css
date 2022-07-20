@@ -1,0 +1,20 @@
+/* :root{
+  --
+} */
+
+
+body{
+  background-color: rgb(223, 225, 231);
+}
+
+#main{
+  position: relative;
+  /* left: 0px; */
+  /* top: 20px; */
+  width: 1360px;
+  height: 610px;
+  background-color: rgb(254, 255, 254);
+  border: 2px solid rgb(254, 255, 254);
+  border-radius: 15px;
+  
+}

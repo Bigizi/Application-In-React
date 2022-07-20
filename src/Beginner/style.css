@@ -1,0 +1,23 @@
+
+#content{
+   
+    /* background-color: aquamarine; */
+    /* height: 10px; */
+}
+#nav_bar{
+    display: inline-block;
+    background-color: darkgray;
+    height: 10px;
+    width: 300px;
+}
+
+#side_bar{
+    display: inline;
+    background-color: deeppink;
+    height: 10px;
+}
+#main{
+    display: inline;
+    background-color: darkblue;
+    height: 10px;
+}

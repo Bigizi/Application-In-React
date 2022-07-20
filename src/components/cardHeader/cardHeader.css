@@ -1,0 +1,45 @@
+#card1_header{
+    position: relative;
+    left: 360px;
+    bottom: 1095px;
+    width: 200px;
+    height: 50px;
+    /* overflow: hidden; */
+    /* background-color: aqua; */
+
+}
+/* Header elements */
+header{
+    padding-bottom: 20px;
+}
+header h1{
+    display: inline-block;
+    font-family: cursive;
+    font-size: 15px;
+}
+header button{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #3863da;
+    border-radius: 7px;
+    padding: 9px 15px;
+    border: none;
+    color: white;
+    font-size: 7px;
+}
+header img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+header p{
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    font-family: cursive;
+    font-size: 10px;
+    opacity: 0.5;
+}
