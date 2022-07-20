@@ -36,3 +36,16 @@
       transform: rotate(360deg);
     }
   }
+
+  .App{
+    /* display: flex; */
+    position: relative;
+    left: 335px;
+    bottom: 2000px;
+    width: 100px;
+    /* height: 80px; */
+    border-radius: 10px;
+    /* box-shadow: 10px 20px 30px rgb(238, 232, 232); */
+    margin-right: 25px;
+    padding-left: 15px;
+  }

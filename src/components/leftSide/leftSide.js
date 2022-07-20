@@ -3,7 +3,7 @@ import "./style.css";
 import woman from "./woman.jpg";
 import woman1 from "./woman1.jpg";
 import blueBg from "./blueBg.jpeg";
-import {BsLayers,BsFolder2Open,BsLightning,BsLifePreserver, BsTrophy, BsChat} from 'react-icons/bs'
+import {BsLayers,BsFolder2Open,BsLightning, BsTrophy, BsChat} from 'react-icons/bs'
 import {FiLifeBuoy} from "react-icons/fi";
 import {CgCircleci} from "react-icons/cg";
 
@@ -56,25 +56,8 @@ export class LeftSide extends React.Component{
                                     <h3>Eleanor Pena</h3>
                                     <p>UI developer</p>
                                 </div>
-                                 <BsChat className="chat" size="1.3em"/></li>
-                                 <li>
-                                <div>
-                                    <img src={woman1} alt=""/>
-                                </div>
-                                <div id="names">
-                                    <h3>Eleanor Pena</h3>
-                                    <p>UI developer</p>
-                                </div>
-                                 <BsChat className="chat" size="1.3em"/></li>
-                                 <li>
-                                <div>
-                                    <img src={woman1} alt=""/>
-                                </div>
-                                <div id="names">
-                                    <h3>Eleanor Pena</h3>
-                                    <p>UI developer</p>
-                                </div>
-                                 <BsChat className="chat" size="1.3em"/></li>
+                                 <BsChat className="chat" size="1.3em"/>
+                                 </li>
                         </ul>
                 </section>
             </div>

@@ -3,7 +3,7 @@ import "./cardheader2.css";
 import BarChart from "./BarChart";
 import { UserData } from "./Data";
 
-function CardHeader2() {
+function CardHeader2 () {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -23,19 +23,12 @@ function CardHeader2() {
     ],
   });
 
-  // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
 
   return (
     <div className="App">
       <div style={{ width: 700 }}>
         <BarChart chartData={userData} />
       </div>
-      {/* <div style={{ width: 700 }}>
-        <LineChart chartData={userData} />
-      </div>
-      <div style={{ width: 700 }}>
-        <PieChart chartData={userData} />
-      </div> */}
     </div>
   );
 }

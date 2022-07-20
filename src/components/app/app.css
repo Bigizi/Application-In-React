@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    overflow: hidden;
+    /* overflow: scroll; */
 }
 
 #left_side{
@@ -16,7 +16,7 @@
     width: 63%;
     bottom: 600px ;
 }
-/* #just_icons{
-    position: relative;
-    left: 100px;
-} */
+
+#crd{
+    
+}

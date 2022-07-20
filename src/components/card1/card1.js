@@ -122,6 +122,7 @@ export class Card1 extends React.Component{
                 <Card iconLabel={card2.iconLabel} levelLabel={card2.levelLabel}  header3={card2.header3} imageSrc={card2.imageSrc} nameLabel={card2.nameLabel} bgcolor={card2.bgcolor} color={card2.color} percent={card2.percent} width={card2.width} num1={card2.num1} num2={card2.num2} country={card2.country}/>
                 <Card iconLabel={card3.iconLabel} levelLabel={card3.levelLabel}  header3={card3.header3} imageSrc={card3.imageSrc} nameLabel={card3.nameLabel} bgcolor={card3.bgcolor} color={card3.color} percent={card3.percent} width={card3.width} num1={card3.num1} num2={card3.num2} country={card3.country}/>
                 <Card iconLabel={card4.iconLabel} levelLabel={card4.levelLabel}  header3={card4.header3} imageSrc={card4.imageSrc} nameLabel={card4.nameLabel} bgcolor={card4.bgcolor} color={card4.color} percent={card4.percent} width={card4.width} num1={card4.num1} num2={card4.num2} country={card4.country}/>
+                <Card iconLabel={card4.iconLabel} levelLabel={card4.levelLabel}  header3={card4.header3} imageSrc={card4.imageSrc} nameLabel={card4.nameLabel} bgcolor={card4.bgcolor} color={card4.color} percent={card4.percent} width={card4.width} num1={card4.num1} num2={card4.num2} country={card4.country}/>
             </div>
             
         );
